@@ -1,7 +1,6 @@
-print ("Hi is there something I can help you with?")
-#name = input("what is your name? ")
-#print ("hello " + name + "!")
-#age = input("how old are you? ")
+#this is what greets the user
+name = input("what is your name?")
+print ("hello " + name + " Hi is there something I can help you with?")
 
 
 #this is what defines what the guide will say
