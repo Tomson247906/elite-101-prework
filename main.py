@@ -22,6 +22,8 @@ def chatbot_guide():
         #this opition allows the user to say that their has not arrived and it responds saying that cooks are backed up and asking if the user would like a refund
         if choice == '1':
             print("Oh no, we're sorry to hear that. our cooks are backed up right now so it may take a bit longer than usual to get your food out. But, would you like a refund?")
+            #.strip() makes it so that any spaces made in the begining will be removed this allows for the code to be exucated corrected
+            # .lower() makes its it so that that any text inputed will apper in lowercase allowing it 
             refund = input("Would you like a refund? (yes/no): ").strip().lower()
             if refund == 'yes':
                 print("Your refund is being processed. You should see it in your account within 5-7 business days.")
